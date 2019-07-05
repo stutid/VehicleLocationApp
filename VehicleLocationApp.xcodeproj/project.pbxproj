@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293C034A22CF07ED00892564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C034922CF07ED00892564 /* AppDelegate.swift */; };
+		293C034C22CF07ED00892564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C034B22CF07ED00892564 /* ViewController.swift */; };
+		293C034F22CF07ED00892564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293C034D22CF07ED00892564 /* Main.storyboard */; };
+		293C035122CF07EE00892564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293C035022CF07EE00892564 /* Assets.xcassets */; };
+		293C035422CF07EE00892564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293C035222CF07EE00892564 /* LaunchScreen.storyboard */; };
+		293C035F22CF07EE00892564 /* VehicleLocationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C035E22CF07EE00892564 /* VehicleLocationAppTests.swift */; };
+		293C036A22CF07EE00892564 /* VehicleLocationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C036922CF07EE00892564 /* VehicleLocationAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		293C035B22CF07EE00892564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293C033E22CF07ED00892564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293C034522CF07ED00892564;
+			remoteInfo = VehicleLocationApp;
+		};
+		293C036622CF07EE00892564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293C033E22CF07ED00892564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293C034522CF07ED00892564;
+			remoteInfo = VehicleLocationApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293C034622CF07ED00892564 /* VehicleLocationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VehicleLocationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		293C034922CF07ED00892564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		293C034B22CF07ED00892564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		293C034E22CF07ED00892564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		293C035022CF07EE00892564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		293C035322CF07EE00892564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		293C035522CF07EE00892564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293C035A22CF07EE00892564 /* VehicleLocationAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VehicleLocationAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293C035E22CF07EE00892564 /* VehicleLocationAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleLocationAppTests.swift; sourceTree = "<group>"; };
+		293C036022CF07EE00892564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293C036522CF07EE00892564 /* VehicleLocationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VehicleLocationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293C036922CF07EE00892564 /* VehicleLocationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleLocationAppUITests.swift; sourceTree = "<group>"; };
+		293C036B22CF07EE00892564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293C034322CF07ED00892564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293C035722CF07EE00892564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293C036222CF07EE00892564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293C033D22CF07ED00892564 = {
+			isa = PBXGroup;
+			children = (
+				293C034822CF07ED00892564 /* VehicleLocationApp */,
+				293C035D22CF07EE00892564 /* VehicleLocationAppTests */,
+				293C036822CF07EE00892564 /* VehicleLocationAppUITests */,
+				293C034722CF07ED00892564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		293C034722CF07ED00892564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293C034622CF07ED00892564 /* VehicleLocationApp.app */,
+				293C035A22CF07EE00892564 /* VehicleLocationAppTests.xctest */,
+				293C036522CF07EE00892564 /* VehicleLocationAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293C034822CF07ED00892564 /* VehicleLocationApp */ = {
+			isa = PBXGroup;
+			children = (
+				293C034922CF07ED00892564 /* AppDelegate.swift */,
+				293C034B22CF07ED00892564 /* ViewController.swift */,
+				293C034D22CF07ED00892564 /* Main.storyboard */,
+				293C035022CF07EE00892564 /* Assets.xcassets */,
+				293C035222CF07EE00892564 /* LaunchScreen.storyboard */,
+				293C035522CF07EE00892564 /* Info.plist */,
+			);
+			path = VehicleLocationApp;
+			sourceTree = "<group>";
+		};
+		293C035D22CF07EE00892564 /* VehicleLocationAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				293C035E22CF07EE00892564 /* VehicleLocationAppTests.swift */,
+				293C036022CF07EE00892564 /* Info.plist */,
+			);
+			path = VehicleLocationAppTests;
+			sourceTree = "<group>";
+		};
+		293C036822CF07EE00892564 /* VehicleLocationAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				293C036922CF07EE00892564 /* VehicleLocationAppUITests.swift */,
+				293C036B22CF07EE00892564 /* Info.plist */,
+			);
+			path = VehicleLocationAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293C034522CF07ED00892564 /* VehicleLocationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293C036E22CF07EE00892564 /* Build configuration list for PBXNativeTarget "VehicleLocationApp" */;
+			buildPhases = (
+				293C034222CF07ED00892564 /* Sources */,
+				293C034322CF07ED00892564 /* Frameworks */,
+				293C034422CF07ED00892564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VehicleLocationApp;
+			productName = VehicleLocationApp;
+			productReference = 293C034622CF07ED00892564 /* VehicleLocationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		293C035922CF07EE00892564 /* VehicleLocationAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293C037122CF07EE00892564 /* Build configuration list for PBXNativeTarget "VehicleLocationAppTests" */;
+			buildPhases = (
+				293C035622CF07EE00892564 /* Sources */,
+				293C035722CF07EE00892564 /* Frameworks */,
+				293C035822CF07EE00892564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293C035C22CF07EE00892564 /* PBXTargetDependency */,
+			);
+			name = VehicleLocationAppTests;
+			productName = VehicleLocationAppTests;
+			productReference = 293C035A22CF07EE00892564 /* VehicleLocationAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		293C036422CF07EE00892564 /* VehicleLocationAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293C037422CF07EE00892564 /* Build configuration list for PBXNativeTarget "VehicleLocationAppUITests" */;
+			buildPhases = (
+				293C036122CF07EE00892564 /* Sources */,
+				293C036222CF07EE00892564 /* Frameworks */,
+				293C036322CF07EE00892564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293C036722CF07EE00892564 /* PBXTargetDependency */,
+			);
+			name = VehicleLocationAppUITests;
+			productName = VehicleLocationAppUITests;
+			productReference = 293C036522CF07EE00892564 /* VehicleLocationAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		293C033E22CF07ED00892564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = iOS;
+				TargetAttributes = {
+					293C034522CF07ED00892564 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					293C035922CF07EE00892564 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 293C034522CF07ED00892564;
+					};
+					293C036422CF07EE00892564 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 293C034522CF07ED00892564;
+					};
+				};
+			};
+			buildConfigurationList = 293C034122CF07ED00892564 /* Build configuration list for PBXProject "VehicleLocationApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 293C033D22CF07ED00892564;
+			productRefGroup = 293C034722CF07ED00892564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293C034522CF07ED00892564 /* VehicleLocationApp */,
+				293C035922CF07EE00892564 /* VehicleLocationAppTests */,
+				293C036422CF07EE00892564 /* VehicleLocationAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293C034422CF07ED00892564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293C035422CF07EE00892564 /* LaunchScreen.storyboard in Resources */,
+				293C035122CF07EE00892564 /* Assets.xcassets in Resources */,
+				293C034F22CF07ED00892564 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293C035822CF07EE00892564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293C036322CF07EE00892564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293C034222CF07ED00892564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293C034C22CF07ED00892564 /* ViewController.swift in Sources */,
+				293C034A22CF07ED00892564 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293C035622CF07EE00892564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293C035F22CF07EE00892564 /* VehicleLocationAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293C036122CF07EE00892564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293C036A22CF07EE00892564 /* VehicleLocationAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		293C035C22CF07EE00892564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293C034522CF07ED00892564 /* VehicleLocationApp */;
+			targetProxy = 293C035B22CF07EE00892564 /* PBXContainerItemProxy */;
+		};
+		293C036722CF07EE00892564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293C034522CF07ED00892564 /* VehicleLocationApp */;
+			targetProxy = 293C036622CF07EE00892564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		293C034D22CF07ED00892564 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293C034E22CF07ED00892564 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		293C035222CF07EE00892564 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293C035322CF07EE00892564 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		293C036C22CF07EE00892564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		293C036D22CF07EE00892564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		293C036F22CF07EE00892564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VehicleLocationApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.VehicleLocationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		293C037022CF07EE00892564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VehicleLocationApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.VehicleLocationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		293C037222CF07EE00892564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VehicleLocationAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.VehicleLocationAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VehicleLocationApp.app/VehicleLocationApp";
+			};
+			name = Debug;
+		};
+		293C037322CF07EE00892564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VehicleLocationAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.VehicleLocationAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VehicleLocationApp.app/VehicleLocationApp";
+			};
+			name = Release;
+		};
+		293C037522CF07EE00892564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VehicleLocationAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.VehicleLocationAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VehicleLocationApp;
+			};
+			name = Debug;
+		};
+		293C037622CF07EE00892564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VehicleLocationAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.VehicleLocationAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VehicleLocationApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		293C034122CF07ED00892564 /* Build configuration list for PBXProject "VehicleLocationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293C036C22CF07EE00892564 /* Debug */,
+				293C036D22CF07EE00892564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293C036E22CF07EE00892564 /* Build configuration list for PBXNativeTarget "VehicleLocationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293C036F22CF07EE00892564 /* Debug */,
+				293C037022CF07EE00892564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293C037122CF07EE00892564 /* Build configuration list for PBXNativeTarget "VehicleLocationAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293C037222CF07EE00892564 /* Debug */,
+				293C037322CF07EE00892564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293C037422CF07EE00892564 /* Build configuration list for PBXNativeTarget "VehicleLocationAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293C037522CF07EE00892564 /* Debug */,
+				293C037622CF07EE00892564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 293C033E22CF07ED00892564 /* Project object */;
+}
