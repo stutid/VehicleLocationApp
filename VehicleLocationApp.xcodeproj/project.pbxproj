@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		293C034A22CF07ED00892564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C034922CF07ED00892564 /* AppDelegate.swift */; };
-		293C034C22CF07ED00892564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C034B22CF07ED00892564 /* ViewController.swift */; };
+		293C034C22CF07ED00892564 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C034B22CF07ED00892564 /* MapVC.swift */; };
 		293C034F22CF07ED00892564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293C034D22CF07ED00892564 /* Main.storyboard */; };
 		293C035122CF07EE00892564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293C035022CF07EE00892564 /* Assets.xcassets */; };
 		293C035422CF07EE00892564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293C035222CF07EE00892564 /* LaunchScreen.storyboard */; };
 		293C035F22CF07EE00892564 /* VehicleLocationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C035E22CF07EE00892564 /* VehicleLocationAppTests.swift */; };
 		293C036A22CF07EE00892564 /* VehicleLocationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C036922CF07EE00892564 /* VehicleLocationAppUITests.swift */; };
+		293C037822CF084E00892564 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C037722CF084E00892564 /* ApiManager.swift */; };
+		293C037B22CF087400892564 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C037A22CF087400892564 /* URLConstants.swift */; };
+		293C037D22CF088A00892564 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C037C22CF088A00892564 /* Constants.swift */; };
+		293C037F22CF08A000892564 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C037E22CF08A000892564 /* Extensions.swift */; };
+		293C038322CF08EA00892564 /* MapVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C038222CF08EA00892564 /* MapVM.swift */; };
+		293C038522CF091100892564 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C038422CF091100892564 /* AnnotationView.swift */; };
+		293C038722CF092600892564 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C038622CF092600892564 /* Vehicle.swift */; };
+		293C038C22CF099500892564 /* AnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293C038B22CF099500892564 /* AnnotationView.xib */; };
+		293C038E22CF0A3A00892564 /* MockApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C038D22CF0A3A00892564 /* MockApiManager.swift */; };
+		293C039022CF0A5900892564 /* MapVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C038F22CF0A5900892564 /* MapVMTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		293C034622CF07ED00892564 /* VehicleLocationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VehicleLocationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		293C034922CF07ED00892564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		293C034B22CF07ED00892564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		293C034B22CF07ED00892564 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		293C034E22CF07ED00892564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		293C035022CF07EE00892564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		293C035322CF07EE00892564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		293C036522CF07EE00892564 /* VehicleLocationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VehicleLocationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		293C036922CF07EE00892564 /* VehicleLocationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleLocationAppUITests.swift; sourceTree = "<group>"; };
 		293C036B22CF07EE00892564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293C037722CF084E00892564 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		293C037A22CF087400892564 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		293C037C22CF088A00892564 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		293C037E22CF08A000892564 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		293C038222CF08EA00892564 /* MapVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVM.swift; sourceTree = "<group>"; };
+		293C038422CF091100892564 /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		293C038622CF092600892564 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		293C038B22CF099500892564 /* AnnotationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnotationView.xib; sourceTree = "<group>"; };
+		293C038D22CF0A3A00892564 /* MockApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiManager.swift; sourceTree = "<group>"; };
+		293C038F22CF0A5900892564 /* MapVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVMTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +118,15 @@
 			isa = PBXGroup;
 			children = (
 				293C034922CF07ED00892564 /* AppDelegate.swift */,
-				293C034B22CF07ED00892564 /* ViewController.swift */,
+				293C037922CF086200892564 /* Networking */,
+				293C038022CF08AE00892564 /* Common */,
+				293C038122CF08D200892564 /* Controllers */,
+				293C038A22CF094000892564 /* ViewModel */,
+				293C038922CF093B00892564 /* View */,
+				293C038822CF093400892564 /* Model */,
 				293C034D22CF07ED00892564 /* Main.storyboard */,
 				293C035022CF07EE00892564 /* Assets.xcassets */,
+				293C038B22CF099500892564 /* AnnotationView.xib */,
 				293C035222CF07EE00892564 /* LaunchScreen.storyboard */,
 				293C035522CF07EE00892564 /* Info.plist */,
 			);
@@ -111,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				293C035E22CF07EE00892564 /* VehicleLocationAppTests.swift */,
+				293C038D22CF0A3A00892564 /* MockApiManager.swift */,
+				293C038F22CF0A5900892564 /* MapVMTests.swift */,
 				293C036022CF07EE00892564 /* Info.plist */,
 			);
 			path = VehicleLocationAppTests;
@@ -123,6 +151,56 @@
 				293C036B22CF07EE00892564 /* Info.plist */,
 			);
 			path = VehicleLocationAppUITests;
+			sourceTree = "<group>";
+		};
+		293C037922CF086200892564 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				293C037722CF084E00892564 /* ApiManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		293C038022CF08AE00892564 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				293C037A22CF087400892564 /* URLConstants.swift */,
+				293C037C22CF088A00892564 /* Constants.swift */,
+				293C037E22CF08A000892564 /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		293C038122CF08D200892564 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				293C034B22CF07ED00892564 /* MapVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		293C038822CF093400892564 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				293C038622CF092600892564 /* Vehicle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		293C038922CF093B00892564 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				293C038422CF091100892564 /* AnnotationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		293C038A22CF094000892564 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				293C038222CF08EA00892564 /* MapVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				293C035422CF07EE00892564 /* LaunchScreen.storyboard in Resources */,
+				293C038C22CF099500892564 /* AnnotationView.xib in Resources */,
 				293C035122CF07EE00892564 /* Assets.xcassets in Resources */,
 				293C034F22CF07ED00892564 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +335,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293C034C22CF07ED00892564 /* ViewController.swift in Sources */,
+				293C038722CF092600892564 /* Vehicle.swift in Sources */,
+				293C037D22CF088A00892564 /* Constants.swift in Sources */,
+				293C037F22CF08A000892564 /* Extensions.swift in Sources */,
+				293C034C22CF07ED00892564 /* MapVC.swift in Sources */,
+				293C037B22CF087400892564 /* URLConstants.swift in Sources */,
+				293C037822CF084E00892564 /* ApiManager.swift in Sources */,
+				293C038522CF091100892564 /* AnnotationView.swift in Sources */,
+				293C038322CF08EA00892564 /* MapVM.swift in Sources */,
 				293C034A22CF07ED00892564 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +351,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293C039022CF0A5900892564 /* MapVMTests.swift in Sources */,
+				293C038E22CF0A3A00892564 /* MockApiManager.swift in Sources */,
 				293C035F22CF07EE00892564 /* VehicleLocationAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

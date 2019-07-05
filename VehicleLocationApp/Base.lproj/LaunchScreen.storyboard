@@ -1,25 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h7c-Ot-Bsc">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="vXk-3j-ypM">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="h7c-Ot-Bsc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QZY-pW-eEW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vehicle Location App" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="868-1o-b6f">
+                                <rect key="frame" x="37.5" y="425" width="339.5" height="46.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-BlackOblique" family="Avenir" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="escooterlogo" translatesAutoresizingMaskIntoConstraints="NO" id="XTZ-1m-Koo">
+                                <rect key="frame" x="83" y="297" width="248" height="108"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="868-1o-b6f" firstAttribute="centerX" secondItem="GTG-2d-nWt" secondAttribute="centerX" id="BjQ-QY-njE"/>
+                            <constraint firstItem="GTG-2d-nWt" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="868-1o-b6f" secondAttribute="trailing" constant="10" id="Cpk-Ed-8eG"/>
+                            <constraint firstItem="868-1o-b6f" firstAttribute="centerY" secondItem="QZY-pW-eEW" secondAttribute="centerY" id="LFj-Sw-vi7"/>
+                            <constraint firstItem="XTZ-1m-Koo" firstAttribute="centerX" secondItem="868-1o-b6f" secondAttribute="centerX" id="QF2-fp-zls"/>
+                            <constraint firstItem="868-1o-b6f" firstAttribute="top" secondItem="XTZ-1m-Koo" secondAttribute="bottom" constant="20" id="anG-rL-abf"/>
+                            <constraint firstItem="XTZ-1m-Koo" firstAttribute="width" secondItem="QZY-pW-eEW" secondAttribute="width" multiplier="0.6" id="kry-aG-Jjn"/>
+                            <constraint firstItem="868-1o-b6f" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="GTG-2d-nWt" secondAttribute="leading" constant="10" id="pao-5f-dyU"/>
+                            <constraint firstItem="XTZ-1m-Koo" firstAttribute="height" secondItem="QZY-pW-eEW" secondAttribute="height" multiplier="0.12" id="s5Z-mG-Vji"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GTG-2d-nWt"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZGg-mm-EMv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="escooterlogo" width="1800" height="1630"/>
+    </resources>
 </document>
